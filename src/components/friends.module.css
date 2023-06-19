@@ -1,0 +1,27 @@
+.list {
+    padding: 0;
+}
+.item {
+    display: flex;
+    gap: 35px;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    width: 340px;
+    box-shadow: inset;
+ 
+}
+
+.avatar::before {
+content: "";
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: green ;
+}
+
+.name {
+    font-size: 20px;
+}
+

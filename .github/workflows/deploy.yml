@@ -1,23 +1,19 @@
 name: Build and deploy to GitHub Pages
-
 on:
   push:
     branches: [main]
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout :гостиничный_звонок:
         uses: actions/checkout@v2.3.1
-
-      - name: Install, lint, build 🔧
+      - name: Install, lint, build :гаечный_ключ:
         run: |
           npm install
           npm run lint:js
           npm run build
-
-      - name: Deploy 🚀
+      - name: Deploy :ракета:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages

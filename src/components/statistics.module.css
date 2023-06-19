@@ -1,0 +1,51 @@
+.statistics {
+padding: 0;
+margin: 0;
+width: 400px;
+}
+
+.title {
+    align-content: center;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    width: calc(100%/5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.percentage {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item:first-child {
+    background-color: rgba(26, 44, 118, 0.4)
+}
+
+.item:nth-child(n+2) {
+    background-color: rgba(219, 48, 196, 0.4)
+}
+
+.item:nth-child(n+3) {
+    background-color: rgba(235, 235, 116, 0.7)
+}
+.item:nth-child(n+4) {
+    background-color: rgba(174, 237, 214, 0.5)
+}
+.item:last-child{
+    background-color: rgba(236, 18, 22, 0.7)
+}

@@ -12,14 +12,14 @@
     box-shadow: inset;
  
 }
-
+/* 
 .avatar::before {
 content: "";
 width: 15px;
 height: 15px;
 border-radius: 50%;
 background-color: green ;
-}
+} */
 
 .name {
     font-size: 20px;

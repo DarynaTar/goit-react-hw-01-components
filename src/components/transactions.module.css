@@ -1,0 +1,20 @@
+.history {
+    width: 400px;
+    border: 1px black solid;
+}
+
+.head {
+    background-color: lightskyblue;
+    border: 1px black solid;
+}
+
+.tr {
+    padding: 30px 60px;
+    text-align: center;
+    height: 30px;
+    border: 3px;
+}
+
+.tr:nth-child(even) {
+    background-color: antiquewhite;
+}

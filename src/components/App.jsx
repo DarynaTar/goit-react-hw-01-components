@@ -1,14 +1,14 @@
-import { UserInfo } from '../components/user';
+import { UserInfo } from './user/user';
 import user from '../data/user';
 
 import data from '../data/data';
-import { Statistics } from './statistics';
+import { Statistics } from './statistics/statistics';
 
 import friends from '../data/friends'
-import {FriendList} from './FriendList'
+import {FriendList} from './friends/FriendList'
 
 import transactions from '../data/transactions'
-import {TransactionHistory} from './transationHistory';
+import {TransactionHistory} from './transactionHistory/transationHistory';
 
 
 export const App = () => {
